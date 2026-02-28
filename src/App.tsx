@@ -1,13 +1,15 @@
-import "./App.css";
+import { SidebarProvider } from "@/components/ui/sidebar";
+import Sidebar from "./Sidebar";
 
-function App() {
+const App = () => {
   return (
-    <>
-      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-        Button
-      </button>
-    </>
+    <SidebarProvider
+      defaultOpen={false}
+      className="justify-center items-center"
+    >
+      <Sidebar />
+    </SidebarProvider>
   );
-}
+};
 
 export default App;

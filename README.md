@@ -49,3 +49,10 @@ The output will be in the `dist` folder.
 - Vite
 - Shadcn
 - Tailwind
+
+## Important notes
+
+- Main focus was made on UX and UI (user interaction, hover/disabled states, features completion, etc.)
+- Images could take long to load initially, since they were taken from Figma in big size and I didn't bother to play with their minification for this test task
+- Even though code quality was a priority, file system was not, so most of the main functionality lives in one React component
+- Other small things are up for discussion

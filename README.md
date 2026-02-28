@@ -4,6 +4,8 @@ This app is a React + TypeScript project for generating and managing background 
 
 ## Demo
 
+Link for deployed version: https://zeely-test-task-alpha.vercel.app/
+
 https://github.com/user-attachments/assets/9a31e5a2-34ae-42ca-9081-ab77709eb5b3
 
 ## Features
